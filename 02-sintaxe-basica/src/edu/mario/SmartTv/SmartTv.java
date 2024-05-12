@@ -8,12 +8,12 @@ public class SmartTv {
     public void definirCanal(int valor)
     {
         canal = valor;
-        System.err.println("O número do canal é : " + canal);
+        System.out.println("O número do canal é : " + canal);
     }
 
     public void aumentarCanal(){
         canal++;
-        System.err.println("O número do canal é : " + canal);
+        System.out.println("O número do canal é : " + canal);
     }
 
     public void diminuirCanal()
@@ -21,7 +21,7 @@ public class SmartTv {
         if(canal > 1)
         {
             canal--;
-            System.err.println("O número do canal é : " + canal);
+            System.out.println("O número do canal é : " + canal);
         }
     }
 
@@ -30,7 +30,7 @@ public class SmartTv {
         if(volume < 100 )
         {
             volume++;
-            System.err.println("Aumentando o volume para : " + volume);
+            System.out.println("Aumentando o volume para : " + volume);
         }
     }
     public void diminuirVolume()
@@ -38,7 +38,7 @@ public class SmartTv {
         if(volume > 0)
         {
             volume--;
-            System.err.println("Diminuindo o volume para : " + volume);
+            System.out.println("Diminuindo o volume para : " + volume);
         }
     }
     public void ligarTv()
@@ -46,7 +46,7 @@ public class SmartTv {
         if(!ligada)
         {
             ligada = true;
-            System.err.println("Tv Ligada.");
+            System.out.println("Tv Ligada.");
         }
     }
     public void desligarTv()
@@ -54,7 +54,7 @@ public class SmartTv {
         if(ligada)
         {
             ligada = false;
-            System.err.println("Tv desligada.");
+            System.out.println("Tv desligada.");
         }
     }
 }
