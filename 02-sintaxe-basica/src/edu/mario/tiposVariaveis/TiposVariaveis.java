@@ -14,6 +14,9 @@ public class TiposVariaveis {
          */
         float idade = 20F;
         int idadeMario = (int) idade;
-        System.out.println("Meu nome é Mário e eu tenho " + idadeMario + " anos.");
+
+        String nome = "Mário";
+
+        System.out.println("Meu nome é " + nome + " e eu tenho " + idadeMario + " anos.");
     }
 }
